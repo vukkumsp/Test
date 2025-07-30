@@ -1,0 +1,62 @@
+Palindrome check
+
+    Write a method to check if a given string or number is a palindrome.
+
+Armstrong number
+
+    Determine if an integer is an Armstrong number (sum of the cubes of its digits equals the number itself).
+
+Prime number
+
+    Check if a number is prime;
+    print primes within a range.
+
+Fibonacci series
+
+    Print the Fibonacci sequence up to n numbers,
+    or
+    calculate the n-th Fibonacci number (with/without recursion).
+
+Factorial calculation
+
+    Compute the factorial of a given number, using both iterative and recursive approaches.
+
+Sum or product of digits
+
+    Find the sum or product of all digits of a given number.
+
+Reverse a number or string
+
+    Reverse the digits of a number or characters in a string.
+
+Find the largest/smallest number
+
+    Identify the largest or smallest element in an array or list.
+
+Frequency counting
+
+    Count the occurrence of a specific character, word, or element in a string or array.
+
+Swapping values
+
+    Swap two numbers or strings (with/without a temporary variable).
+
+Finding duplicates
+
+    Find duplicate elements in arrays, lists, or strings.
+
+Sorting numbers/strings
+
+    Sort arrays or lists of numbers/strings using logic (without built-in functions).
+
+Pattern printing problems
+
+    Print various numeric and character patterns using nested loops (e.g., triangles, pyramids).
+
+Anagram check
+
+    Check if two strings are anagrams of each other.
+
+Finding odd/even numbers
+
+    Identify and separate odd/even numbers from a list.

@@ -1,0 +1,37 @@
+A. Logical and Analytical Programming
+
+    Implementing logic-based solutions (e.g., palindrome, Armstrong number, prime number checks, frequency counting, finding duplicates).
+
+Coding Patterns and Implementation
+
+    Writing code for classic problems like matrix operations, array rotations, pattern printing, and basic file I/O.
+
+Exception Handling and Edge Cases
+
+    Handling exceptions programmatically, identifying and fixing defects or explaining unusual outcomes.
+
+Collections, Generics, and Core Java APIs
+
+    Using Java Collections framework—like Sets, Lists, Maps—and questions on generics, immutability, and common utility APIs.
+
+Object-Oriented Programming (OOP) Design
+
+    Designing classes, demonstrating concepts like inheritance, polymorphism, encapsulation, and abstraction. Candidates may be asked to implement small systems or design problem statements highlighting OOP principles.
+
+Java 8+/11 Features
+
+    Using streams, lambda expressions, Functional interfaces, Optional, and other Java 11 enhancements in solving problems.
+
+Performance Optimization and Design Patterns
+
+    Refactoring/optimizing code for performance, identifying or implementing creational/structural/behavioral design patterns.
+
+Data Structures and Algorithms
+
+    Arrays, Strings, Linked Lists, Stacks, Queues, Trees, HashMaps, and Graphs.
+
+    Sorting, searching, recursion, dynamic programming, and algorithmic puzzles (e.g., reversing a string, checking for anagrams, finding the k-th largest/smallest element, etc.).
+
+Concurrency, Multithreading, and Synchronization
+
+    Writing code involving threads, synchronization, producer-consumer problems, or demonstrating concurrent access.
