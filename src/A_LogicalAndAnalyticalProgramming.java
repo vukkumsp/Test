@@ -1,3 +1,5 @@
+import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -222,5 +224,79 @@ public class A_LogicalAndAnalyticalProgramming {
                 .reduce(1, (i, s)-> i*s);
 
         System.out.printf("Input %d Sum %d Product %d", input1, sum, product);
+    }
+
+    void reverseDigits(){
+        int input1 = 12345;
+
+        int result = 0;
+
+        int tempInput = input1;
+        int tempDigit = 0;
+        while(tempInput>0){
+            tempDigit = tempInput%10;
+            if(result > 0) result *= 10;
+            result += tempDigit;
+            tempInput/=10;
+        }
+
+        System.out.printf("Input %d Reversed %d", input1, result);
+    }
+
+    void reverseString(){
+        String input1 = "12345";
+
+        StringBuilder sb = new StringBuilder();
+
+        for(int i=input1.length()-1;i>=0;--i){
+            sb.append(input1.charAt(i));
+        }
+
+        String result = sb.toString();
+
+        System.out.printf("Input %s Reversed %s", input1, result);
+    }
+
+    void reverseDigitsStreams(){
+        int input1 = 12345;
+
+        int digitCnt = 0;
+        int tempInput = input1;
+
+        while(tempInput>0){
+            digitCnt++;
+            tempInput/=10;
+        }
+
+        tempInput = input1;
+        String input1Str = String.valueOf(input1);
+
+        int result = IntStream.range(0, input1Str.length())
+
+                .map(i -> input1Str.charAt(input1Str.length()-1-i))
+                .map(i -> i - '0')
+                .peek(System.out::println)
+                .reduce(0, (a,b)->{
+                    return a*10+b;
+                });
+
+        System.out.printf("Input %d Reversed %d", input1, result);
+    }
+
+    void frequencyWithStreams(){
+        String input = "asdasdfasdf";
+        String frequentLetter = "f";
+
+        long result = input.chars()
+                .mapToObj(i->(char)i)
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .get(frequentLetter.charAt(0));
+
+        System.out.printf("Input %s Letter %c Frequency %d", input, frequentLetter.charAt(0),result);
+
+        int input2 = 1234532129;
+        int frequentDigit = 2;
+
+
     }
 }

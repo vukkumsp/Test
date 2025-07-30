@@ -13,10 +13,15 @@ public class Main {
 //        a.fibonacciStreamIterate();
 //        a.factorialIterativeNRecursive();
 //        a.factorialStreams();
-        a.digitsSumProduct();
-        System.out.println(" ");
-        a.digitsSumProductStreams();
+//        a.digitsSumProduct();
+//        System.out.println(" ");
+//        a.digitsSumProductStreams();
 
+//        a.reverseDigits();
+//        a.reverseString();
+//        a.reverseDigitsStreams();
+
+        a.frequencyWithStreams();
 
 
     }
